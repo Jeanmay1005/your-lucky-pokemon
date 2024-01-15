@@ -1,0 +1,71 @@
+@keyframes jumpAnimation {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+h1 {
+  font-family: "VT323";
+  font-size: 48px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: rgb(255, 255, 255);
+  animation: jumpAnimation 1s infinite;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: larger;
+  font-family: "Press Start 2P";
+  padding: 10px;
+}
+button {
+  padding: 15px;
+  background: transparent;
+  font-size: xx-large;
+  font-family: "VT323";
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 5px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(219, 107, 126);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeimg {
+  padding: 30px;
+}
+
+.pokeDataBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokeText {
+  font-family: "VT323";
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
