@@ -35,6 +35,7 @@ export default function BackgroundAudio() {
         onPause={handlePause}
       ></audio>
       <img
+        alt="sound icon"
         className="icon"
         onClick={toggleMusic}
         src={isPlaying ? muteIcon : soundIcon}

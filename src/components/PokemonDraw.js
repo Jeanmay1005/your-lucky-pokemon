@@ -26,7 +26,7 @@ export default function PokemonDraw() {
       for (let i = 0; i < idArr.length; i++) {
         let pokeData = await getByID(idArr[i]);
         setPokeImg(pokeData.sprites.front_default);
-        if (i == idArr.length - 1) {
+        if (i === idArr.length - 1) {
           await delay(300 + i * 100);
           let characteristic = await getCharacteristic(generateCharacterID());
           setPokeName("Name: " + pokeData.name);

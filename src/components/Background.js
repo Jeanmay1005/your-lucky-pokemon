@@ -16,7 +16,7 @@ export const Background = () => {
     }).then(() => {
       setInit(true);
     });
-  }, []);
+  }, [init]);
 
   return <div>{init && <Particles options={particlesOptions} />}</div>;
 };
