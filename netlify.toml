@@ -1,0 +1,5 @@
+[[redirects]]
+  force = true
+  from = "/api/v2/pokemon/*"
+  status = 200
+  to = "https://pokeapi.co/api/v2/pokemon/*"

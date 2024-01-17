@@ -29,6 +29,7 @@ export default function PokemonDraw() {
         if (i === idArr.length - 1) {
           await delay(300 + i * 100);
           let characteristic = await getCharacteristic(generateCharacterID());
+          //raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/504.png
           setPokeName("Name: " + pokeData.name);
           setPokeDescript("Character: " + characteristic);
 
