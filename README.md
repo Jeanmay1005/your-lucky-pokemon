@@ -1,4 +1,4 @@
-# Your Lucky Pokemon for Today
+# Your Lucky Pokemon for Today ✨
 
 ![Screenshot 2024-01-17 at 4 13 59 pm](https://github.com/Jeanmay1005/your-lucky-pokemon/assets/70839755/158a1499-55e0-45b4-8fce-58a9ef09b4b3)
 
