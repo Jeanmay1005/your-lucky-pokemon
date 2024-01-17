@@ -52,7 +52,7 @@ export default function PokemonDraw() {
 
   return (
     <div className="container">
-      <h1>What's your lucky Pokemon Today?</h1>
+      <h1>What's your lucky Pokemon today?</h1>
       <audio src={resultAudio} ref={audioRef} />
       <div className="pokeDataBox">
         <img className="pokeimg" width="200px" src={pokeImg} />

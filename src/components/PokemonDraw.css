@@ -25,7 +25,7 @@ h1 {
 button {
   padding: 15px;
   background: transparent;
-  font-size: clamp(2.8vw, 25px, 36px);
+  font-size: clamp(2.1vw, 25px, 36px);
   font-family: "VT323";
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
