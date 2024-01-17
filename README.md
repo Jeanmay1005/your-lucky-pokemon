@@ -1,6 +1,7 @@
 # Your Lucky Pokemon for Today
 
-![Screenshot 2024-01-17 at 3 37 41 pm](https://github.com/Jeanmay1005/your-lucky-pokemon/assets/70839755/7afc010a-4354-40e2-af7a-c72246c53102)
+![Screenshot 2024-01-17 at 4 13 59 pm](https://github.com/Jeanmay1005/your-lucky-pokemon/assets/70839755/158a1499-55e0-45b4-8fce-58a9ef09b4b3)
+
 
 A web app that tells you your pokemon of the day and their character!
 
